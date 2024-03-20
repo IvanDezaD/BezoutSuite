@@ -33,7 +33,7 @@ def main():
     mcd, x, y = resolute(
         a, b, dictionary, 0
     )  # Deberiamos hacer una inmersion pero soy demasiado lazy para hacer eso para este programa de mierda
-    print("The result of mcd({},{})={}".format(a, b, mcd))
+    print("mcd({},{})={}".format(a, b, mcd))
     print(f"La identidad de bezout que satisface es: {a}*({x})+{b}*({y}) = {mcd}")
 
 

@@ -11,7 +11,7 @@ def esCoprimo(num1, num2):
     return mcd(num1, num2) == 1 #Devolvemos true si y solo si mcd = 1, si no devolveremos 0
 
 def calcularCoprimos(num):
-    for i in range(2, num):
+    for i in range(1, num):
         if esCoprimo(i, num):
             print(f"Found coprimo con {num}: {i}")
 
